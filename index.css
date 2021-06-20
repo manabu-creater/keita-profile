@@ -47,7 +47,6 @@ header {
   color: white;
   margin-right: 10%;
   white-space: nowrap;
-  font-size: 14px;
 }
 
 /* main */
@@ -55,31 +54,37 @@ header {
   width: 100%;
 }
 
-.top-wrapper, .top-wrapper2, .top-wrapper3 {
+.top-wrapper {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url("images/top.jpg") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  /* height: 50%; */
+  padding-top: 62.5%;
+  position: relative;
   margin-bottom: 10%;
-}
-
-.top1 {
-  width: 100vw;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
-.top-wrapper2 {
-  position: relative;
-}
-
-.top2, .top3 {
-  width: 100vw;
 }
 
 .background {
   position: absolute;
-  top: 250px;
+  top: 20%;
   left: 52.5%;
   color: white;
   font-size: 120%;
   white-space: nowrap;
+}
+
+.top-wrapper2 {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url("images/second-img.jpg") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 62.5%;
+  position: relative;
+  margin-bottom: 10%;
+  display: block;
 }
 
 .background2 {
@@ -93,6 +98,13 @@ header {
 }
 
 .top-wrapper3 {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url("images/third-img.jpg") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  /* height: 500px; */
+  padding-top: 62.5%;
   position: relative;
 }
 
@@ -125,21 +137,24 @@ footer {
 @media screen and (max-width: 599px) {
   header {
     display: flex;
-    width: 170vw;
+    width: 100%;
+    height: 25px;
     background-color: #003366;
   }
   
+  /* .header-left {
+    width: 40vw;
+    float: right;
+    padding-left: 30px;
+  } */
+  
   .brand {
-    width: 40%;
+    width: 80%;
   }
   
-  .header-left {
-    width: 50%;
-  }
-
   .header-right {
     margin-left: 5px;
-    margin-top: 1%;
+    margin-top: 1.8%;
   }
   
   .navigation {
@@ -148,101 +163,73 @@ footer {
   }
   
   .navigation li {
+    margin-left: 10px;
     white-space: nowrap;
   }
   
   .navigation a {
-    font-size: 4px;
+    font-size: 6px;
   }
 
-  .top1, .top2, .top3 {
-    width: 170%;
+
+  .background {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: white;
+    font-size: 3px;
+    white-space: nowrap;
   }
 
-  .background, .background3 {
-    font-size: 60%;
-    top: 100px;
-    left: 92.5%;
+  .top-wrapper {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url("images/top.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 62.5%;
   }
 
   .background2 {
-    width: 85%;
-    font-size: 60%;
-    top: 10px;
-    left: 2%;
-  }
-
-  footer {
-    width: 170%;
-    height: 50px;
-  }
-
-  .brand2 {
+    position: absolute;
+    top: 5%;
+    left: 2.5%;
+    color: black;
     width: 40%;
-    height: 100%;
+  }
+  
+  .background2 h1, .background2 h3 {
+    font-size: 60%;
   }
 
+
+  .background2 p {
+    font-size: 6px;
+    flex-wrap: wrap;
+  }
   
+  
+  .background3 {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    color: black;
+    font-size: 3px;
+    white-space: nowrap;
+  }
+
+  .top-wrapper3 {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url("images/third-img.jpg") center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 62.5%;
+  }
 }
 
 /* i pad  */
 @media screen and (max-width: 1000px) {
-  header {
-    display: flex;
-    width: 109vw;
-    background-color: #003366;
-  }
-  
-  .brand {
-    width: 40%;
-  }
-  
-  .header-left {
-    width: 55%;
-  }
 
-  .header-right {
-    margin-left: 5px;
-    margin-top: 1%;
-  }
-  
-  .navigation {
-    width: 109%;
-    padding-left: 25%;
-  }
-  
-  .navigation li {
-    white-space: nowrap;
-  }
-  
-  .navigation a {
-    font-size: 8px;
-  }
-
-  .top1, .top2, .top3 {
-    width: 109%;
-  }
-
-  .background, .background3 {
-    font-size: 90%;
-    top: 150px;
-    left: 62.5%;
-  }
-
-  .background2 {
-    width: 85%;
-    font-size: 75%;
-    top: 30px;
-    left: 2%;
-  }
-
-  footer {
-    width: 109%;
-    height: 50px;
-  }
-
-  .brand2 {
-    width: 40%;
-    height: 100%;
-  }
 }
+
