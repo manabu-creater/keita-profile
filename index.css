@@ -75,7 +75,7 @@ header {
   white-space: nowrap;
 }
 
-.top-wrapper2 {
+.top-wrapper3 {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: url("images/second-img.jpg") center center no-repeat;
@@ -87,9 +87,9 @@ header {
   display: block;
 }
 
-.background2 {
+.background3 {
   position: absolute;
-  top: 2%;
+  top: 20%;
   left: 2.5%;
   color: black;
 /*   font-size: 120%;
@@ -99,7 +99,7 @@ header {
   width: 40%;
 }
 
-.top-wrapper3 {
+.top-wrapper2 {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: url("images/third-img.jpg") center center no-repeat;
@@ -110,10 +110,10 @@ header {
   position: relative;
 }
 
-.background3 {
+.background2 {
   position: absolute;
-  top: 20%;
-  left: 52.5%;
+  top: 2%;
+  left: 55%;
   color: black;
   font-size: 120%;
   white-space: nowrap;
