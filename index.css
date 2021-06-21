@@ -92,8 +92,10 @@ header {
   top: 2%;
   left: 2.5%;
   color: black;
-  font-size: 120%;
-  flex-wrap: wrap;
+/*   font-size: 120%;
+  flex-wrap: wrap; */
+  white-space: nowrap;
+  font-size: 14px;
   width: 45%;
 }
 
