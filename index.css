@@ -99,7 +99,7 @@ header {
   width: 40%;
 }
 
-.top-wrapper2 {
+.top-wrapper3 {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: url("images/third-img.jpg") center center no-repeat;
@@ -110,7 +110,7 @@ header {
   position: relative;
 }
 
-.background2 {
+.background3 {
   position: absolute;
   top: 20%;
   left: 55%;
