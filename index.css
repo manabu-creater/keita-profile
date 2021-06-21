@@ -75,7 +75,7 @@ header {
   white-space: nowrap;
 }
 
-.top-wrapper3 {
+.top-wrapper2 {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: url("images/second-img.jpg") center center no-repeat;
@@ -87,9 +87,9 @@ header {
   display: block;
 }
 
-.background3 {
+.background2 {
   position: absolute;
-  top: 20%;
+  top: 2%;
   left: 2.5%;
   color: black;
 /*   font-size: 120%;
@@ -112,7 +112,7 @@ header {
 
 .background2 {
   position: absolute;
-  top: 2%;
+  top: 20%;
   left: 55%;
   color: black;
   font-size: 120%;
